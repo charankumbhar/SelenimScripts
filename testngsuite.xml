@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite">
+  <groups>
+  <run>
+   <exclude name="Web Login"/>
+   <include name="Mobile Login"/>
+   <include name="API Login"/>
+  </run>
+  </groups>
+  
+  <test name="Personal Load">
+  <classes>
+  <class name="javaTpoint.Personal_loan">
+  </class>
+  </classes>
+  </test>
+  
+  <test name="Home Loan">
+  <classes>
+  <class name="javaTpoint.Home_loan">
+  </class>
+  </classes>
+  </test>
+  
+  <test name="Car Loan">
+  <classes>
+  <class name="javaTpoint.Car_loan">
+  </class>
+  </classes>
+  </test>
+  
+  
+</suite> <!-- Test_Suite -->

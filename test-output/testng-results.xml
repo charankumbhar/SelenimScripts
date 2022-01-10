@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="9" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-08T16:01:38 IST" name="Test_Suite" finished-at="2022-01-08T16:01:39 IST" duration-ms="388">
+    <groups>
+      <group name="API Login">
+        <method signature="Personal_loan.APILoginPersonalLoan()[pri:0, instance:javaTpoint.Personal_loan@59af0466]" name="APILoginPersonalLoan" class="javaTpoint.Personal_loan"/>
+        <method signature="Home_loan.APILoginHomeLoan()[pri:0, instance:javaTpoint.Home_loan@156b88f5]" name="APILoginHomeLoan" class="javaTpoint.Home_loan"/>
+        <method signature="Car_loan.APILoginCarLoan()[pri:0, instance:javaTpoint.Car_loan@47faa49c]" name="APILoginCarLoan" class="javaTpoint.Car_loan"/>
+      </group> <!-- API Login -->
+      <group name="Mobile Login">
+        <method signature="Personal_loan.MobileLoginPersonalLoan()[pri:0, instance:javaTpoint.Personal_loan@59af0466]" name="MobileLoginPersonalLoan" class="javaTpoint.Personal_loan"/>
+        <method signature="Home_loan.MobileLoginHomeLoan()[pri:0, instance:javaTpoint.Home_loan@156b88f5]" name="MobileLoginHomeLoan" class="javaTpoint.Home_loan"/>
+        <method signature="Car_loan.MobileLoginCarLoan()[pri:0, instance:javaTpoint.Car_loan@47faa49c]" name="MobileLoginCarLoan" class="javaTpoint.Car_loan"/>
+      </group> <!-- Mobile Login -->
+    </groups>
+    <test started-at="2022-01-08T16:01:38 IST" name="Personal Load" finished-at="2022-01-08T16:01:38 IST" duration-ms="106">
+      <class name="javaTpoint.Personal_loan">
+        <test-method signature="APILoginPersonalLoan()[pri:0, instance:javaTpoint.Personal_loan@59af0466]" started-at="2022-01-08T16:01:38 IST" name="APILoginPersonalLoan" finished-at="2022-01-08T16:01:38 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginPersonalLoan -->
+        <test-method signature="MobileLoginPersonalLoan()[pri:0, instance:javaTpoint.Personal_loan@59af0466]" started-at="2022-01-08T16:01:38 IST" name="MobileLoginPersonalLoan" finished-at="2022-01-08T16:01:38 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginPersonalLoan -->
+      </class> <!-- javaTpoint.Personal_loan -->
+    </test> <!-- Personal Load -->
+    <test started-at="2022-01-08T16:01:38 IST" name="Home Loan" finished-at="2022-01-08T16:01:38 IST" duration-ms="25">
+      <class name="javaTpoint.Home_loan">
+        <test-method signature="APILoginHomeLoan()[pri:0, instance:javaTpoint.Home_loan@156b88f5]" started-at="2022-01-08T16:01:38 IST" name="APILoginHomeLoan" finished-at="2022-01-08T16:01:38 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan -->
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:javaTpoint.Home_loan@156b88f5]" started-at="2022-01-08T16:01:38 IST" name="MobileLoginHomeLoan" finished-at="2022-01-08T16:01:38 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+      </class> <!-- javaTpoint.Home_loan -->
+    </test> <!-- Home Loan -->
+    <test started-at="2022-01-08T16:01:38 IST" name="Car Loan" finished-at="2022-01-08T16:01:39 IST" duration-ms="42">
+      <class name="javaTpoint.Car_loan">
+        <test-method signature="APILoginCarLoan()[pri:0, instance:javaTpoint.Car_loan@47faa49c]" started-at="2022-01-08T16:01:38 IST" name="APILoginCarLoan" finished-at="2022-01-08T16:01:38 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+        <test-method signature="MobileLoginCarLoan()[pri:0, instance:javaTpoint.Car_loan@47faa49c]" started-at="2022-01-08T16:01:38 IST" name="MobileLoginCarLoan" finished-at="2022-01-08T16:01:38 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+      </class> <!-- javaTpoint.Car_loan -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Test_Suite -->
+</testng-results>
